@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "UniversRegular";
+	src: url("../fonts/UniversRegular/UniversRegular.eot");
+	src: url("../fonts/UniversRegular/UniversRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/UniversRegular/UniversRegular.woff") format("woff"),
+	url("../fonts/UniversRegular/UniversRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

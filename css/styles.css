@@ -4,42 +4,53 @@ body, html {
 	font-size: 14px;
 	/*background-color: #000000;*/
 	color: #fff;
+	font-family: 'Comfortaa', cursive;
 }
 header {
-	padding-top: 1em;
+	padding-top: 0.5em;
 }
 .header-menu {
 	list-style: none;
 	text-align: right;
-	height: 3em;
-	line-height: 3em;
+	height: 4em;
+	line-height: 4em;
 }
 .header-menu li {
 	display: inline-block;
 	margin-left: 2em;
-	
+}
+.header-ul:hover {
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	color: #c2c2c2;
+	text-decoration: none
+
 }
 .header-menu a {
 	color: #fff;
 }
 .header-descript {
 	text-transform: uppercase;
-	font-size: 1.5em;
-	font-weight: 900;
+	font-family: "UniversRegular", cursive;
+	font-size: 1.7em;
+	
 }
 .header-main {
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	text-align: center;
 	margin-top: 10em;
 }
 .header-link {
 	display: block;
-	width: 60%;
-	max-width: 300px;
+	width: 40%;
+	max-width: 250px;
 	border: 2px solid #fff;
+	border-radius: 0px;
 	margin: 3em auto;
 	padding: 1em;
 	color: #fff;
+	font-size: 15px;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
